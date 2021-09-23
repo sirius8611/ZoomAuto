@@ -1,6 +1,6 @@
 # WINDOW<br>
 <h4>B1. Tải python https://www.python.org</h4>
-<h4>B2. Tải file này (Ấn vào Code + Download Zip)</h4>
+<h4>B2. Tải file trên (Ấn vào Code màu xanh lá cây + Download Zip)</h4>
 <h4>B3: Giải nén </h4>
 <h4>B4: Click vào file zoom-cli.bat</h4>
 <h4>B5: Click file main.py</h4>
