@@ -24,7 +24,14 @@ def printCurrentTime() :
 keyboard = Controller()
 isStarted = False
 currentDay = week_day[datetime.today().weekday()]
+print(f"Today is {currentDay}")
+print("Today's schedule")
+print("------------------")
+for i in lst:
+    if(i[4] == currentDay):
+        print(f"{i[1]} - {i[2]}: {i[3]}")
 
+print("------------------")
 while True:
     for i in lst:
         meeting_link = i[0]
@@ -44,7 +51,6 @@ while True:
                         webbrowser.open(meeting_link, autoraise=False)
                         # urllib.request.urlopen(meeting_link)
                         isStarted = True
-                        print("Current Day : " + currentDay + "DAY")
                         print("Current Meeting : " + currentMeeting)
                         print("Current Meeting Start : " + currentStart)
                         print("Current Meeting End : " + currentEnd)

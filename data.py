@@ -63,7 +63,7 @@ lst = [
     [GDCD] + tiet_1 + [ "GDCD", 'FRI'],
     [Hoa]  + tiet_2 + [ "Hoa", 'FRI'],
     [Hoa]  + tiet_3 + [ "Hoa", 'FRI'],
-    [Dia]  + tiet_4 + [ "Su", 'FRI'],
+    [Dia]  + tiet_4 + [ "Dia", 'FRI'],
     #SAT
     [GDQP] + tiet_1 + [ "GDQP", 'SAT'],
     [Ly]   + tiet_2 + [ "Ly", 'SAT'],
